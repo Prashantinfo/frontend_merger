@@ -1,0 +1,81 @@
+.section-header {
+    width: 100%;
+    text-align: center;
+    margin: 45px auto 40px auto;
+    max-width: 1440px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.section-header {
+    background-color: #f6f5f4;
+}
+
+.section-header .heading1 {
+    margin-bottom: 0;
+}
+
+.heading1 {
+    font-family: 'BuickHeadlineRegular', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 32px;
+}
+
+.carousel .stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel.centered .content-card {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    flex-direction: row;
+}
+
+.item-header {
+    margin-bottom: 25px;
+}
+.convenience {
+    margin: auto;
+    max-width: 350px;
+    padding-left: 5px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 42px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color:lightgray;
+}

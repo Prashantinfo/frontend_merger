@@ -1,0 +1,328 @@
+.section-header.first {
+    min-height: 110px;
+}
+
+.section-header {
+    background-color: #f6f5f4;
+}
+
+.section-header {
+    width: 100%;
+    text-align: center;
+    margin: 45px auto 40px auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.section-header .heading1 {
+    margin-bottom: 0;
+}
+
+.heading1 {
+    font-family: 'BuickHeadlineRegular', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 32px;
+}
+
+.section-header.first .heading1:after {
+    content: '';
+    border-top: 1px solid #fe5000;
+    display: block;
+    max-width: 270px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 14px;
+}
+
+.section-header p.year_mod {
+    font-family: 'BuickTextMedium', sans-serif;
+    font-size: 18px;
+}
+
+.section-header p.year_mod {
+    margin: 0;
+}
+
+.hidden-make {
+    display: inline-block;
+}
+
+
+.top-level-contents .dashboard-item {
+    padding-bottom: 30px;
+}
+
+.dashboard-carousel .dashboard-item {
+    min-height: 1px;
+    float: left;
+}
+
+.dashboard-carousel .dashboard-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.overview-card {
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+.dashboard-container {
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dashboard-header {
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 15px;
+    min-height: 72px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    justify-content: center;
+    text-align: center;
+}
+
+.dashboard-header-container {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.overview-card span {
+    font-weight: 500;
+}
+
+.overview-card .dashboard-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dashboard-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboard-body {
+    flex-grow: 1;
+    padding: 0 20px 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.overview-card .dashboard-button {
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.dashboard-button a.btn.primary {
+    color: #FE5000 !important;
+}
+
+.dashboard-text-small ul {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.dashboard-text-small li {
+    margin-bottom: 8px;
+}
+
+.dashboard-text-small li {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: auto !important;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 42px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: lightgray;
+}
+
+
+#wallet-card {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: visible;
+    padding: 1em;
+    gap: 2rem;
+    margin: auto;
+}
+
+#wallet-card .user-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 603px;
+    /* min-width: 500px; */
+}
+
+.card.secondary {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+}
+
+.card {
+    /* filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.08)); */
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.08));
+    position: relative;
+}
+
+#wallet-card p.large.user-name {
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+}
+
+.user-name {
+    margin-top: 41px;
+    margin-left: 41px;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+#wallet-card p.large.user-name:after {
+    content: '';
+    display: block;
+    background-color: #FE5000;
+    margin-top: 15px;
+    height: 4px;
+    width: 51px;
+}
+
+.user-info {
+    display: flex;
+    padding: 0px 41px;
+    padding-bottom: 41px;
+    max-width: 638px;
+}
+
+.user-info .info-holder:first-child {
+    flex-basis: 43%;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(120, 110, 103, 0.25);
+}
+
+.user-info .info-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.user-info .info-holder:last-child {
+    padding-left: 20px;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.info {
+    margin-bottom: 10px;
+    padding: 0 0.4rem;
+}
+
+#wallet-card .brand-logo img {
+    max-height: 39px;
+}
+
+.dashboard-carousel .dashboard-item img {
+    display: block;
+    width: 100%;
+}
+
+#wallet-card .info-holder p.small {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.download-wallet {
+    width: 474px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.download-wallet .btn.primary {
+    max-width: 390px;
+    width: 100%;
+    height: 52px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.download-wallet button {
+    margin-top: 32px;
+}
+
+.btn.primary {
+    background: #f6f5f4;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn.primary:hover {
+    background: black;
+    color: #f6f5f4;
+
+}

@@ -1,0 +1,41 @@
+.footer {
+    background: #F6F5F4;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+    padding: 2rem 6rem !important;
+    margin-top: 40px;
+}
+
+.footer-contents {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    color: black !important;
+    margin-top: 40px;
+}
+
+.footer-dealer-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer-heading {
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.policy-url-container {
+    display: flex;
+    gap: 4rem;
+    padding: 1rem 0;
+}
+
+.policy-url-container .policy-url-wrapper a {
+    color: var(--primary-black);
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+}

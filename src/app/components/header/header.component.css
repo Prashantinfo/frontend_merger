@@ -1,0 +1,72 @@
+
+.header {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.2rem 6rem !important;
+    margin-bottom: 0.1rem !important;
+    display: flex
+
+}
+
+.page-wrapper section > div {
+    display: flex
+;
+}
+
+.contact-detail-visit-us {
+    align-items: center;
+    gap: 1rem;
+    margin-right: auto;
+}
+
+.logo-dealer-name, .col {
+    flex-direction: column;
+}
+
+.visit-us {
+    flex-direction: column;
+    margin-left: auto;
+    align-items: end;
+}
+
+.contact-detail {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    color: var(--primary-black);
+    font-weight: 400;
+}
+
+.visit-website-url-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.visit-us .btn.primary {
+    height: 42px;
+    width: 137px;
+    color: #333;
+    border: 1px solid #333;
+    font-family: "BuickTextMedium", sans-serif !important;
+    font-weight: normal !important;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background: #f6f5f4;
+    font-size: 16px;
+}
+
+.Header_Dealer_Name {
+    font-weight: 600;
+    font-family: "BuickTextRegular", sans-serif !important;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-dealer-name a img {
+    width: 100%;
+    max-width: 340px;
+    max-height: 51px;
+}

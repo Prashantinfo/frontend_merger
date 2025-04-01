@@ -1,0 +1,169 @@
+section.main {
+    width: calc(100% - 90px);
+    max-width: 1340px;
+    min-height: 100px;
+    margin: auto;
+}
+.section-header {
+    width: 100%;
+    text-align: center;
+    margin: 45px auto 40px auto;
+    max-width: 1440px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.section-header {
+    background-color: #f6f5f4;
+}
+
+.section-header .heading1 {
+    margin-bottom: 0;
+}
+
+.heading1 {
+    font-family: 'BuickHeadlineRegular', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 32px;
+}
+
+.offer-section{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    font-size: 16px;
+}
+
+.offer-header {
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 15px;
+    min-height: 72px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    justify-content: center;
+    text-align: center;
+}
+.offer-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    padding: 0 20px 0 20px;
+}
+.offer-body-table {
+    width: 100%;
+    display: table;
+    float: left;
+}
+.offer-body-table-cell {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn.primary {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 390px;
+    background: #f6f5f4;
+    border: 1px solid black;
+    color: black;
+    height: 52px;
+    text-transform: uppercase;
+}
+
+.btn.primary:hover {
+    background: black;
+    color: #f6f5f4;
+
+}
+
+.btn {
+    font-family: 'BuickTextMedium', sans-serif !important;
+    font-size: 16px;
+    font-weight: 350;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn.secondary {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 390px;
+    background: black;
+    border: 1px solid black;
+    color: #f6f5f4;
+    height: 52px;
+    text-transform: uppercase;
+}
+
+.btn.secondary:hover {
+    background: #f6f5f4;
+    color: black;
+
+}
+
+.offer-button {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* background: #fff; */
+    text-align: center;
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    margin-bottom: 9px;
+    align-items: center;
+}
+
+.offer-dealer-sig {
+    display: table;
+    width: 100%;
+    margin: 33px 0;
+    padding: 0 20px 0 20px;
+}
+.offer-dealer-name {
+    width: 50%;
+    display: table-cell;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle;
+}
+.offer-dealer-name {
+    width: 50%;
+    display: table-cell;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle;
+}
+.make-logo-coupon {
+    text-align: right;
+}
+.make-logo-coupon img {
+    max-width: 179px;
+    display: inline-block !important;
+    vertical-align: middle;
+}
